@@ -16,7 +16,7 @@ An agent has <b>sensors</b> to perceive and <b>actuators</b> to act. Agent = Pro
 
 <h2>Rational agent</h2>
 
-<s>agent needs to have a goal to complete?</s> easure the success of an agent's behaviour, we use <b>performance measure</b> (objective criterio, eg. resources used)
+<s>An agent needs to have a goal to complete?</s> To measure the success of an agent's behaviour, we use <b>performance measure</b> (objective criterio, eg. resources used)
 
 Thus we define <b>rational agent</b> as:
 
@@ -84,6 +84,29 @@ Drawbacks of naive approach:
 - No autonomy: impossible to learn all correct table entries
 from experience
 - No guidance on filling in the correct table entries
+
+<h2>Agent Types</h2>
+
+- Simple Reflex agent (least general): <b>Passive</b> (only acts when observed a percept) and updates state based on <b>percept only</b>
+
+- Model Reflex agent: <b>Passive</b>, and updates state according to percept, current state, most recent action and model of the world (which is inferred?)
+
+- Goal Based agent: <b>Not passive, has goals</b>, updates state according to percept, current state, most recent action and model of the world
+
+- Utility Based agent (most general): <b>Has utility function, seeks to maximise said function</b>, updates state according to percept, current state, most recent action and model of the world
+
+- Learning agent? Will adjust the utility function according to users' input (machine learning?)
+
+<h2>Exploitation vs Exploration</h2>
+
+An agent operating in the real world must
+often choose between:
+
+• maximizing its expected utility according to its
+current knowledge about the world; and
+
+• trying to learn more about the world since this
+may improve its future gains.
 
 <h2>Miscellaneous</h2>
 
