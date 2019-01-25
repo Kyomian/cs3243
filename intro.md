@@ -123,4 +123,8 @@ Discrete/continuous handles how one models time in the environment; if the envir
 
 <b>Q: What are stochastic environments? </b>
 
-A: in stochastic environments, some parameters in the environment are unknown. For example, in poker games, the deck is shuffled which causes uncertainty about what cards I'll be getting. However, poker is still a static game (the environment doesn't change while you think about your next move) and still operates in discrete "turns" (rather than continuously requesting the agent for feedback).  
+A: in stochastic environments, some parameters in the environment are unknown. For example, in poker games, the deck is shuffled which causes uncertainty about what cards I'll be getting. However, poker is still a static game (the environment doesn't change while you think about your next move) and still operates in discrete "turns" (rather than continuously requesting the agent for feedback).
+
+Web Links
+
+<a href="https://stackoverflow.com/questions/40372897/what-is-the-difference-between-a-performance-measure-and-a-utility-function>Utility function vs Performance Measure</a>
