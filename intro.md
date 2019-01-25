@@ -74,8 +74,8 @@ An agent is completely specified by the
 agent function mapping percept sequences
 to actions.
 
-• One agent function (or a small equivalence
-class) is rational
+• <s> One agent function (or a small equivalence
+class) is rational </s>
 
 • Aim: Find a way to implement the rational
 agent function concisely
