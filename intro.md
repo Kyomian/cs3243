@@ -53,7 +53,7 @@ Set a task environment for the rational agent to act in. This is known as <b>PEA
 Task Environment Properties:
 
 <ol>
-  <li> Fully observable vs partially observable: sensors can see complete state of environment or not</li>
+  <li> Fully observable vs partially observable: <b>sensors</b> can see complete state of environment or not</li>
   <li> Deterministic vs Stochastic: By deterministic, the next state of the environment is completely determined
 by the current state and the action executed by the agent.</li>
   <li> Episodic vs Sequential: By episodic: the choice of current action does not depend on actions in past episodes. Alternatively: current action does not affect future
