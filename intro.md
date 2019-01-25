@@ -16,7 +16,12 @@ An agent has <b>sensors</b> to perceive and <b>actuators</b> to act. Agent = Pro
 
 <h2>Rational agent</h2>
 
-<s>An agent needs to have a goal to complete?</s> To measure the success of an agent's behaviour, we use <b>performance measure</b> (objective criterio, eg. resources used)
+<s>An agent needs to have a goal to complete?</s> To measure the success of an agent's behaviour, we use <b>performance measure</b> (objective criterio, eg. resources used) 
+
+```
+Performance measure seems to be that it must be QUANTIFIABLE.
+and how you want the ENVIRONMENT to be.
+```
 
 Thus we define <b>rational agent</b> as:
 
