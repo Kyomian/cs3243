@@ -125,6 +125,13 @@ Discrete/continuous handles how one models time in the environment; if the envir
 
 A: in stochastic environments, some parameters in the environment are unknown. For example, in poker games, the deck is shuffled which causes uncertainty about what cards I'll be getting. However, poker is still a static game (the environment doesn't change while you think about your next move) and still operates in discrete "turns" (rather than continuously requesting the agent for feedback).
 
+<b>Q: Why the environment where the poker agent is acting is stochastic? </b>
+
+TLDR: The environment has a <b>source</b> of randomness, which is the shuffling of the cards.
+
+A: As we already discussed in class that in the poker playing environment the agent has no idea about what cards the other players have (results from the shuffling of the deck before distribution), the environment is partially observable. As the model of the environment is dependent on what cards all the players have, there is a randomness embedded in the environment. Now, in this situation when the agent takes an action (fold, raise etc.), even if the card distribution remains unchanged before and after the action, the embedded randomness of the environment makes the state non-deterministic. A deterministic poker game would be one where the agent knows what cards others are holding. So a very uninteresting game. Hope it is clear now.
+
+
 Web Links
 
 <a href="https://stackoverflow.com/questions/40372897/what-is-the-difference-between-a-performance-measure-and-a-utility-function">Utility function vs Performance Measure</a>
