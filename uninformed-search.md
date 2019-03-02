@@ -79,3 +79,7 @@ so it does not matter much that the upper levels are generated multiple times.
 ![](/summary-uninformed-search.PNG)
 
 UCS is complete if b is finite and step costs are positive!
+
+<h2>Others</h2>
+
+All these are deterministic search algorithms. Can we improve on them? Yes, by using <b>probabilistic/randomised</b> search algos.
