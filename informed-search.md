@@ -14,3 +14,9 @@ Complete? Yes, if b is finite. Optimal? No. Time complexity? O(b^m) Space comple
 
 <b>QNS</b>: Why is greedy best-first search not optimal? What info does it ignore?<br>
 <b>ANS</b>: how far it is from the start; it only takes into account of how far it is from the goal...
+
+<b>A* Search</b>
+
+f(n) = g(n) + h(n). g(n) = <i>true</i> cost of reaching n from start node. h(n) = cost estimate from n to goal.
+
+IMPT: A* Search will stop only when (a)goal is reached <b>AND</b> (b) f(goal) is lowest among the frontier
