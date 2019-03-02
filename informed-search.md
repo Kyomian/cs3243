@@ -39,3 +39,11 @@ A* Search evaluation: Complete? Yes (if there is finite number of nodes with f(n
 If ℎ2(𝑛) ≥ ℎ1(𝑛) for all 𝑛(both admissible), then ℎ2 dominates ℎ1. It follows that ℎ2 incurs lower search cost than ℎ1.
 
 <b>Deriving admissible heuristic</b>: The cost of an optimal solution to a relaxed problem is an admissible heuristic for the original problem
+
+<h2>Local Search</h2>
+
+The path to goal is irrelevant; the goal state itself is the solution
+
+State space = a set of "complete" configurations
+
+Hill-climbing: Look at neighbours of current state. Go to the neighbour with the better evaluation function... Hill-climbing might result in a local minimum, not a global minimum! So, there are some non-guaranteed fixes like sideway moves and random restarts...
