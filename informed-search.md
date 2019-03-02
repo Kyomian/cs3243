@@ -11,3 +11,6 @@ There are 2 types of best-first search: <b>greedy best-first search</b> and <b>A
 f(n) = h(n) = Estimated cost of cheapest path from n to goal.
 
 Complete? Yes, if b is finite. Optimal? No. Time complexity? O(b^m) Space complexity? O(b^m)
+
+<b>QNS</b>: Why is greedy best-first search not optimal? What info does it ignore?<br>
+<b>ANS</b>: how far it is from the start; it only takes into account of how far it is from the goal...
