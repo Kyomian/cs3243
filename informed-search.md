@@ -33,3 +33,9 @@ If h(n) is consistent, then A* Search using graph-search is optimal.
 A* with all-zero heuristic = UCS
 
 A* Search evaluation: Complete? Yes (if there is finite number of nodes with f(n) <= f(G)) Optimal? Yes. Time? O(b^(h*(root)-h(root))) Space? O(b^m)
+
+<b>Dominance</b>
+
+If ℎ2(𝑛) ≥ ℎ1(𝑛) for all 𝑛(both admissible), then ℎ2 dominates ℎ1. It follows that ℎ2 incurs lower search cost than ℎ1.
+
+<b>Deriving admissible heuristic</b>: The cost of an optimal solution to a relaxed problem is an admissible heuristic for the original problem
