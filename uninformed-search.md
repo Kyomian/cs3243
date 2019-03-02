@@ -60,3 +60,16 @@ b descendants to stack. We do so at most m times ⇒ O(bm) space.
 Do we really need to push all b
 descendants to the stack? No need. You need an extra data structure:
 You can consider one neighbour first, instead all the b neighbours. The extra data structure is used to save the ANCESTOR, so you can re-trace the steps.
+
+<b>DLS</b>
+
+If infinite depth, cannot use DFS... Use DLS. DFS with depth limit l.
+
+<b>IDS</b>
+
+Perform DLSs with increasing depth limit until goal node is reached.
+
+Iterative deepening search may seem wasteful because states are generated multiple
+times. It turns out this is <b>not too costly</b>. The reason is that in a search tree with the same (or
+nearly the same) branching factor at each level, most of the nodes are in the bottom level,
+so it does not matter much that the upper levels are generated multiple times.
