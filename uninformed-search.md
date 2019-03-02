@@ -18,3 +18,17 @@ the source) Alternatively: ```The frontier is the leaf nodes in the current sear
 A <b>state</b> represents a physical configuration while a <b>node</b> is a data structure constituting part of
 search tree. It includes state, parent node, action (i.e. the action applied to the parent to generate the node),
 and path cost g(n) (i.e. the cost of the path from the <i>initial</i> state to the node).
+
+<h2>Search strategies</h2>
+
+Any deterministic search algorithm is determined by the
+order of node expansion.
+
+• completeness: always find a solution if exists<br>
+• optimality: find a least-cost solution<br>
+• time complexity: number of nodes generated<br>
+• space complexity: max. number of nodes in memory
+
+• b: maximum # of successors of any node (may be ∞)<br>
+• d: depth of shallowest goal node<br>
+• m: maximum depth of search tree (may be ∞)
