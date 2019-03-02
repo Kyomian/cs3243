@@ -73,3 +73,5 @@ Iterative deepening search may seem wasteful because states are generated multip
 times. It turns out this is <b>not too costly</b>. The reason is that in a search tree with the same (or
 nearly the same) branching factor at each level, most of the nodes are in the bottom level,
 so it does not matter much that the upper levels are generated multiple times.
+
+![](/summary-uninformed-search.png)
