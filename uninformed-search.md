@@ -75,3 +75,5 @@ nearly the same) branching factor at each level, most of the nodes are in the bo
 so it does not matter much that the upper levels are generated multiple times.
 
 ![](/summary-uninformed-search.PNG)
+
+UCS is complete if b is finite and step costs are positive!
