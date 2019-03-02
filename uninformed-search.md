@@ -32,3 +32,31 @@ order of node expansion.
 • b: maximum # of successors of any node (may be ∞)<br>
 • d: depth of shallowest goal node<br>
 • m: maximum depth of search tree (may be ∞)
+
+<b>BFS</b>
+
+Idea: Expand shallowest unexpanded node <br>
+Implementation: Frontier is a FIFO queue,
+i.e., insert new successors at the end
+
+<b>UCS</b>
+
+Dijskstra is a variant of UCS. 
+Dijkstra's algorithm searches for shortest paths from root to every other node in a graph, whereas uniform-cost searches for shortest paths in terms of cost to a goal node.
+
+Idea: expand least-path-cost unexpanded node <br>
+Frontier: priority queue ordered by path cost g(n) <br>
+Equivalent to BFS if all step costs are equal
+
+<b>DFS</b>
+
+Idea: Expand deepest unexpanded node<br>
+Implementation: Frontier = LIFO stack, i.e.,
+insert successors at the front
+
+When checking a node v, we push at most
+b descendants to stack. We do so at most m times ⇒ O(bm) space.
+
+Do we really need to push all b
+descendants to the stack? No need. You need an extra data structure:
+You can consider one neighbour first, instead all the b neighbours. The extra data structure is used to save the ANCESTOR, so you can re-trace the steps.
