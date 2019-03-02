@@ -20,3 +20,16 @@ Complete? Yes, if b is finite. Optimal? No. Time complexity? O(b^m) Space comple
 f(n) = g(n) + h(n). g(n) = <i>true</i> cost of reaching n from start node. h(n) = cost estimate from n to goal.
 
 IMPT: A* Search will stop only when (a)goal is reached <b>AND</b> (b) f(goal) is lowest among the frontier
+
+<h2>Theorems</h2>
+
+h(n) is admissible if for every n, h(n) <= h*(n) where h* is the true cost to goal.
+
+h(n) is consistent if for every node n and every successor n' of n: h(n) <= d(n, n') + h(n')
+
+If h(n) is admissible, then A* Search using tree-search is optimal.<br>
+If h(n) is consistent, then A* Search using graph-search is optimal.
+
+A* with all-zero heuristic = UCS
+
+A* Search evaluation: Complete? Yes (if there is finite number of nodes with f(n) <= f(G)) Optimal? Yes. Time? O(b^(h*(root)-h(root))) Space? O(b^m)
