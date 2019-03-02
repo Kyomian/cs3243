@@ -33,6 +33,8 @@ order of node expansion.
 • d: depth of shallowest goal node<br>
 • m: maximum depth of search tree (may be ∞)
 
+NOTE: Tree and Graph Search apply to all the following:
+
 <b>BFS</b>
 
 Idea: Expand shallowest unexpanded node <br>
