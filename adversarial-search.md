@@ -9,7 +9,7 @@ Initially, a(n) = −∞, b(n) = +∞ <br>
 • a(n) is max along search path containing n<br>
 • b(n) is min along search path containing n<br>
 • If a MIN node has value v ≤ a(n), no need to
-explore further.<br>
+explore further (the other branches of the MIN)<br>
 • If a MAX node has value v ≥ b(n), no need to
 explore further.
 
