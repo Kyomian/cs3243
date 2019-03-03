@@ -26,3 +26,5 @@ Solution: run minimax until a <b>cutoff depth</b> d, then use <b>evaluation func
 
 Modern evaluation functions: weighted sum of
 position features
+
+<h2>Stochastic Games</h2>
