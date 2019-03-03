@@ -23,3 +23,6 @@ because moves must be made in a reasonable amount of time—typically a few minu
 most.
 
 Solution: run minimax until a <b>cutoff depth</b> d, then use <b>evaluation function</b> (an estimation of utility) to choose nodes.
+
+Modern evaluation functions: weighted sum of
+position features
