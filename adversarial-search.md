@@ -12,3 +12,14 @@ Initially, a(n) = −∞, b(n) = +∞ <br>
 explore further.<br>
 • If a MAX node has value v ≥ b(n), no need to
 explore further.
+
+Order of search in alpha-beta pruning is important too.
+
+<h2>Time Limit</h2>
+
+However, alpha–beta still has to search all the way
+to terminal states for at least a portion of the search space. This depth is usually not practical,
+because moves must be made in a reasonable amount of time—typically a few minutes at
+most.
+
+Solution: run minimax until a <b>cutoff depth</b> d, then use <b>evaluation function</b> (an estimation of utility) to choose nodes.
